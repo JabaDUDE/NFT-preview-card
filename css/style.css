@@ -1,0 +1,103 @@
+.attribution {
+    font-size: 18px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: #000B49;
+    padding: 25% 25% 25% 25%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration-style: solid;
+}
+
+.clock{
+    padding-right: 5px;
+}
+.creation{
+    display: flex;
+}
+h2 {
+    color: white;
+    text-align: left;
+}
+
+h2:hover{
+    color: #1DB9C3;
+}
+
+hr{
+    width: 75%;
+    color: gray;
+    
+}
+
+.image1 {
+    width: 70%;
+    height: auto;
+    padding-top: 20px;
+    box-shadow: black;
+}
+
+.image1:hover{
+    color:#1DB9C3;
+}
+
+.jules{
+    color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.jules:hover{
+    color:#1DB9C3;
+}
+
+.jules-wyvern {
+    width: 10%;
+    float: left;
+    padding-left: 30px;
+   
+    
+
+}
+
+.main {
+    background-color: #151e58;
+    text-align: center;
+    border-radius: 30px;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    left: 50%;
+    padding: 10px;
+    
+    
+}
+
+p {
+    color: #577BC1;
+    text-align: left;
+}
+.price{
+    color: #1DB9C3;
+    padding-left: 10px;
+    padding-right: 50px;
+    display: inline;
+
+}
+
+.time{
+    display:inline;
+    padding-left: 50px;
+    ;
+
+}
