@@ -12,11 +12,10 @@
 
 body {
   background-color: #000b49;
-  padding: 25% 25% 25% 25%;
   font-family: "Montserrat", sans-serif;
-  text-decoration-style: solid;
   display: flex;
   justify-content: center;
+  margin: auto 0;
 }
 
 .time img {
@@ -73,16 +72,13 @@ hr {
   color: #1db9c3;
 }
 
-.jules-wyvern {
-  float: left;
-}
-
 .main {
   background-color: #151e58;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
-  max-width: 350px;
+  max-width: 355px;
+  margin-top: 10%;
 }
 
 .balance {
@@ -104,11 +100,14 @@ hr {
   height: 60px;
   width: 40px;
   float: left;
+  margin-right: 10px;
 }
 .container img {
   height: auto;
   width: 100%;
   float: left;
+  border-radius: 50%;
+  border: 1px solid white;
 }
 @media (min-width: 400px) and (max-width: 732px) {
   .price {
