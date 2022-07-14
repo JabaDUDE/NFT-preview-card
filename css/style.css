@@ -39,6 +39,7 @@ h2 {
 
 h2:hover {
   color: #1db9c3;
+  cursor: pointer;
 }
 
 hr {
@@ -59,10 +60,6 @@ hr {
   margin-right: auto;
 }
 
-.image1:hover {
-  color: #1db9c3;
-}
-
 .jules {
   color: white;
   padding-left: 10px;
@@ -70,6 +67,7 @@ hr {
 }
 .jules:hover {
   color: #1db9c3;
+  cursor: pointer;
 }
 
 .main {
@@ -109,6 +107,32 @@ hr {
   border-radius: 50%;
   border: 1px solid white;
 }
+.nft-image {
+  position: relative;
+  float: left;
+}
+.nft-image:hover {
+  cursor: pointer;
+}
+.nft-image:hover .eye {
+  display: block;
+}
+.image1:hover {
+  background-color: cyan;
+  opacity: 0.5;
+}
+
+.eye {
+  position: absolute;
+  display: none;
+  top: 45%;
+  width: 48px;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
 @media (min-width: 400px) and (max-width: 732px) {
   .price {
     font-size: 14px;
